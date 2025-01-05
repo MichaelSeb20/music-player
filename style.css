@@ -29,7 +29,13 @@ body {
   margin: 100px 0;
   z-index: 10;
 }
+@media (max-width: 600px) {
 
+  .music-container {
+   width: 80%;
+  }
+}
+  
 .img-container {
   position: relative;
   width: 110px;
@@ -133,7 +139,7 @@ body {
 }
 
 .progress {
-  background-color: #fe8daa;
+   background-color: #fe8daa; 
   border-radius: 5px;
   height: 100%;
   width: 0%;
